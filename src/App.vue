@@ -13,7 +13,7 @@
   <!--  </header>-->
 
 
-  <component :is='layout'>
+  <component :is='layout' class='body'>
     <RouterView />
   </component>
 

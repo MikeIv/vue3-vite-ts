@@ -1,0 +1,9 @@
+//Функции для работы с компонентнами
+@use 'sass:math';
+
+// Rem функция
+@import '../variables/base-font-size';
+$size: math.div($base-font-size, 1px);
+@function rem($px) {
+  @return math.div($px, $size) + rem;
+}
