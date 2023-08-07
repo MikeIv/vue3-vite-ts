@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useTestFunc } from "@/composables/useTestFunc.ts";
+import { useTestFunc } from "/src/composables/useFilter.ts";
 
 const { numArr } = useTestFunc();
 const dataTest = numArr.value;
