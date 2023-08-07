@@ -1,9 +1,12 @@
 <template>
   <header class='header'>
-    <nav class='header__nav'>
-      <RouterLink class='header__nav-item' to='/'>Home</RouterLink>
-      <RouterLink class='header__nav-item' to='/about'>About</RouterLink>
-    </nav>
+    <section class="base-wrapper header__section">
+      <nav class='header__nav'>
+        <RouterLink class='header__nav-item' to='/'>Home</RouterLink>
+        <RouterLink class='header__nav-item' to='/sandbox'>Sandbox</RouterLink>
+      </nav>
+    </section>
+
   </header>
 </template>
 

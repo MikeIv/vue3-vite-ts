@@ -1,0 +1,9 @@
+.sandbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &__h1 {
+    @include flex;
+  }
+}

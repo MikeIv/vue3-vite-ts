@@ -1,4 +1,4 @@
-# vue-vite-ts
+# Шаблон vue 3 + vite + ts 
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -23,24 +23,24 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
-```sh
-npm install
+```yarn
+yarn
 ```
 
 ### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
+```yarn
+yarn dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
+```yarn
+yarn build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
+```yarn
+yarn lint
 ```
