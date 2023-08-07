@@ -6,4 +6,13 @@
   &__h1 {
     @include flex;
   }
+
+  &__section {
+    @include flex-column;
+
+    margin: rem(40) 0;
+    padding: rem(20);
+    background-color: var(--a-bgLight);
+
+  }
 }
