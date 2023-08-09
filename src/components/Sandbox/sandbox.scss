@@ -13,6 +13,19 @@
     margin: rem(40) 0;
     padding: rem(20);
     background-color: var(--a-bgLight);
+  }
 
+  &__search {
+    display: flex;
+    max-width: rem(200);
+    margin-bottom: rem(20);
+    padding: rem(8) rem(20);
+
+    &-btn {
+      @include flex;
+
+      max-width: rem(150);
+      padding: rem(8) rem(20);
+    }
   }
 }
