@@ -14,3 +14,13 @@ export const useFilterState = (obj: FilterQuery) => {
     defaultFilterState,
   }
 }
+
+export const useFilterStateRemove = (key: string) => {
+
+  delete filterState.value[key]
+  console.log('filterStateVALUE-DEL: ', filterState.value)
+
+  return {
+    filterState,
+  }
+}
