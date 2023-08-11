@@ -5,8 +5,8 @@
       <p>{{ dataTest }}</p>
       <p>{{ test }}</p>
       <p>{{ searchInputValue }} --- state {{ filterState }}</p>
-      <div>
-        <p>{{ apiData }} --- {{ apiData.id }}</p>
+      <div v-if='apiData'>
+        <p>{{ apiData }} --- {{ apiData.title }}</p>
       </div>
 
       <input
